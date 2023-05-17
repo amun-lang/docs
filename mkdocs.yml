@@ -2,11 +2,11 @@ site_name: Amun Programming Language
 
 site_url: https://amun-lang.github.io/docs
 site_description: General purpose system programming language written using C++ and LLVM
-site_author: AmrDeveloper
+site_author: amun-lang
 
 copyright: Copyright &copy; 2022 Amr Heshan
 
-repo_name: AmrDeveloper/Amun
+repo_name: amun-lang/Amun
 repo_url: https://github.com/amun-lang/docs
 edit_uri: blob/master/docs/
 
