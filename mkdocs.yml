@@ -81,6 +81,7 @@ nav:
     - Varargs: reference/varargs.md
     - Cast: reference/cast.md
     - Type Size: reference/type_size.md
+    - Type Align: reference/type_align.md
     - Value Size: reference/value_size.md
     - Generic: reference/generic.md
     - Type alias: reference/type_alias.md
