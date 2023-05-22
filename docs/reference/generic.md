@@ -46,3 +46,20 @@ And when calling generic function you neet also to spicify the generic parameter
 sum<int64>(1, 1);
 sum<intfloat>(1.0, 1.0);
 ```
+
+Amun can infer the types of the generic function if it can, or it will tell you that there are not enogh information to infer them
+
+```
+sum(1, 1);
+sum(1.0, 1.0);
+```
+
+You can also create prefix, infix or postfix generic functions for example
+
+```
+@infix
+fun plus<T>(v1 T, v2 T) T { ... }
+
+var x = p1 plus<Point> p2;
+var y = p1 plus p2;
+```
