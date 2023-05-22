@@ -5,10 +5,10 @@ Amun has both If statement and Expression
 If Statement is the same line in C/C++ it execute the block only if the condition is not evaluated to false
 
 ```
-if condition {
+if (condition) {
 
 }
-else if condition2 {
+else if (condition2) {
 
 }
 else {

@@ -9,8 +9,8 @@ for {
 By default continue forces the next iteration of the current loop but you can chooice which loop to focees
 
 ```
-for 0 .. 10 {
-    for 0 .. 10 {
+for (0 .. 10) {
+    for (0 .. 10) {
         continue 2;
     }
 }

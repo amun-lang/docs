@@ -26,12 +26,12 @@ For example without defer statement
 fun function() void {
     var memory = allocate_memory();
 
-    if condition {
+    if (condition) {
         free_memory(memory);
         return;
     }
 
-    if condition2 {
+    if (condition2) {
         free_memory(memory);
         return;
     }
@@ -48,8 +48,8 @@ fun function() void {
     var memory = allocate_memory();
     defer free_memory(memory);
     
-    if condition return;
-    if condition2 return;
+    if (condition) return;
+    if (condition2) return;
     
     return;
 }
