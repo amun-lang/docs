@@ -59,6 +59,7 @@ nav:
     - Values: reference/values.md
     - Assignment: reference/assignments.md
     - Variables: reference/variables.md
+    - Destructuring: reference/destructuring.md
     - Const: reference/const.md
     - Struct: reference/struct.md
     - Tuples: reference/tuples.md
