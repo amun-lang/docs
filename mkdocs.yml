@@ -87,6 +87,7 @@ nav:
     - Generic: reference/generic.md
     - Type alias: reference/type_alias.md
     - Directives: reference/directives.md
+    - SIMD: reference/simd.md
   - Contribute: contribution.md
 
 extra:
