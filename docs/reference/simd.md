@@ -37,3 +37,34 @@ for (vec) {
     printf("vec[%d] = %u\t", it_index, it);
 }
 ```
+
+### Arithmetic Operators
+
+You can easily apply any Arithmetic Operators (+, -, *, /, %) on vector type without operator overloaing function
+
+```
+var v1 = @vec[1_u8, 2_u8, 3_u8];
+var v2 = @vec[1_u8, 2_u8, 3_u8];
+
+var plus = v1 + v2;
+var minus = v1 - v2;
+var star = v1 * v2;
+var slash = v1 / v2;
+var rem = v1 % v2;
+```
+
+### Comparisons Operators
+
+You can easily apply any Comparions Operators (==, !=, >, >=, <, <=) on vector type without operator overloaing function
+
+```
+var v1 = @vec[1_u8, 2_u8, 3_u8];
+var v2 = @vec[1_u8, 2_u8, 3_u8];
+
+printf("v1 == v2 %d\n", v1 == v2);
+printf("v1 != v2 %d\n", v1 != v2);
+printf("v1 >  v2 %d\n", v1 > v2);
+printf("v1 >= v2 %d\n", v1 >= v2);
+printf("v1 <  v2 %d\n", v1 < v2);
+printf("v1 <= v2 %d\n", v1 <= v2);
+```
