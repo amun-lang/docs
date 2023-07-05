@@ -68,3 +68,18 @@ printf("v1 >= v2 %d\n", v1 >= v2);
 printf("v1 <  v2 %d\n", v1 < v2);
 printf("v1 <= v2 %d\n", v1 <= v2);
 ```
+
+### Bitwise Operators
+
+You can easily apply any Bitwise Operators (|, &, ^, <<, >>) on vector type without operator overloaing function
+
+```
+var v1 = @vec[1_u8, 2_u8, 3_u8];
+var v2 = @vec[1_u8, 2_u8, 3_u8];
+
+var vec_or = v1 | v2;
+var vec_and = v1 & v2;
+var vec_xor = v1 ^ v2;
+var vec_lsh = v1 << v2;
+var vec_rsh = v1 >> v2;
+```
