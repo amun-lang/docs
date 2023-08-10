@@ -2,8 +2,9 @@ Amun has both switch statement and expression
 
 ## Switch Statement
 
-Switch statement is the same like in C/C++ it execute block if his case value
-match the condition value, if no value match it will execute an optional default block
+By Switch statement is used to execute the branch if his case value is equal to the argument,
+but you can also override the equality checks with any comparisons operator such as (==, !=, >, >=, <, <=).
+and if no value match it will return the value of default block.
 
 ```
 switch (10) {
@@ -11,14 +12,27 @@ switch (10) {
     2, 4    -> printf("Two or four");
     else    -> printf("Else");
 }
+
+var x = 10;
+switch (x, >) {
+    1       -> printf("x > 1");
+    2, 4    -> printf("x > 2 or x > 4");
+    else    -> printf("Else");
+}
 ```
 
 ## Switch Expression
 
-Switch expression is used to return a value of branch if his case match the condition value, if no value match it will return the value of default block
+Switch expression is used to return a value of branch if his case value is equal to the argument, but like the switch staement you can also override the operator by any comparisons operator such as (==, !=, >, >=, <, <=).
 
 ```
 var result = switch (10) {
+    2, 4, 6, 8 -> true;
+    else -> false;
+};
+
+var x = 10;
+var result2 = switch (x, <) {
     2, 4, 6, 8 -> true;
     else -> false;
 };
