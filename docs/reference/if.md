@@ -21,7 +21,8 @@ else {
 If Else Expression is used to return one of two values depend on the condition for example
 
 ```
-var result = if (condition) value1 else value2;
+var result = if (condition) { value1 } else { value2 };
+var result2 = if (condition) { value1 } else if (condition2) { value2 } else { value3 };
 ```
 
 ## Compile time If Else expression
